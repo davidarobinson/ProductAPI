@@ -1,0 +1,23 @@
+
+https://elanderson.net/2017/10/swagger-and-swashbuckle-with-asp-net-core-2/
+https://docs.microsoft.com/en-us/aspnet/core/tutorials/getting-started-with-swashbuckle?view=aspnetcore-2.1&tabs=visual-studio%2Cvisual-studio-xml
+
+
+interesting read, used ef command from article 
+https://www.codeproject.com/Articles/1170018/Execute-Stored-Procedure-using-Entity-Framework-Co
+https://dotnetthoughts.net/how-to-execute-storedprocedure-in-ef-core/
+
+dotnet ef dbcontext scaffold -c ProductDbContext -o Models -f "Data Source=;Initial Catalog=;integrated security=true;" Microsoft.EntityFrameworkCore.SqlServer -t Products 
+**repeat -t <tablename> for each table
+**The -f switch overwrites the files. run to a temp context for updates then copy table definitions over.
+
+https://docs.microsoft.com/en-gb/aspnet/core/tutorials/first-web-api?view=aspnetcore-2.1
+
+
+https://www.codeproject.com/Articles/47603/Mock-a-database-repository-using-Moq
+https://www.jankowskimichal.pl/en/2016/01/mocking-dbcontext-and-dbset-with-moq/
+
+https://stackoverflow.com/questions/19936892/how-do-i-unit-test-web-api-action-method-when-it-returns-ihttpactionresult
+
+
+
